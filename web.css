@@ -31,7 +31,7 @@ label{
     cursor: pointer;
 }
 
-label + label {
+label + label + label {
     margin-left: 50px;
     margin-right: 50px;
 }
