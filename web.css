@@ -6,6 +6,13 @@ body{
 div.bg{
     background-color:#DCD7ED;
 }
+
+#dog,
+#cat,
+#both{
+    margin-top: 300px;
+}
+
 .image{
     display: none;
 }
@@ -14,12 +21,6 @@ div.bg{
 #cat:checked ~ #Cat,
 #both:checked ~ #Both{
     display: block;
-}
-
-#dog,
-#cat,
-#both{
-    margin-top: 300px;
 }
 
 label{
@@ -32,3 +33,10 @@ label{
 input[type="radio"]{
     display: none;
 }
+
+#dog:not(checked) ~ #Dog,
+#cat:not(checked) ~ #Cat,
+#both:not(checked) ~ #Both{
+    display: none;
+}
+
