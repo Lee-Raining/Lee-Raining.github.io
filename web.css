@@ -1,25 +1,20 @@
-<style>
-    body{
-        background-image:url("http://img.pptjia.com/image/20190312/e4174af697f50bc44f5136745d629d4b.jpg");
-        font-family: sans-serif;
-        padding: 20px;
-        }
-    div.bg{
-        background-color:#DCD7ED;
-    }
-</style>
-<style>
-    #dog-image{
-        display: none;
-    }
+body{
+    background-image:url("http://img.pptjia.com/image/20190312/e4174af697f50bc44f5136745d629d4b.jpg");
+    font-family: sans-serif;
+    padding: 20px;
+}
+div.bg{
+    background-color:#DCD7ED;
+}
+.image{
+    display: none;
+}
 
-    #show:checked + label + #dog-image{
-        display: block;
-    }
-
-     #show:not(:checked) + label + #dog-image{
-        display: none;
-    }
+#button1:checked ~ #image1,
+#button2:checked ~ #image2,
+#button3:checked ~ #image3{
+    display: block;
+}
 
 label{
     background-color: #7FD8F5;
@@ -27,4 +22,7 @@ label{
     padding: 10px 20px;
     cursor: pointer;
 }
-</style>
+
+input[type="radio"]{
+    display: none;
+}
