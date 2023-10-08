@@ -34,9 +34,9 @@ input[type="radio"]{
     display: none;
 }
 
-#dog:not(checked) ~ #Dog,
-#cat:not(checked) ~ #Cat,
-#both:not(checked) ~ #Both{
+#dog:checked ~ #Dog:not(:checked),
+#cat:checked ~ #Cat:not(:checked),
+#both:checked ~ #Both:not(:checked){
     display: none;
 }
 
