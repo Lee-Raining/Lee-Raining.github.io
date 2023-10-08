@@ -1,47 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>411261576 web HW3</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299.6">
-  <style>
-    body{
-    backgound:blue;}
-  </style>
-  <style type="text/css"></style>
-</head>
-<body> 
-  <h1><span style="color:blue;">Welcome</span></h1>
-  <h2><div align="center"><span style="color:#8E9BAE;">你是貓派還是狗派？</span></div></h2>
-  <p>
-    <details>
-      <summary>狗派</summary>
-        <ol>
-          <img src="https://img.onl/1IqpnK" width="400" height="250">
-        </ol>
-    </details>
-    <details>
-      <summary>貓派</summary>
-        <ol>
-          <img src="https://img.onl/zlNa5l" width="400" height="300">
-        </ol>
-    </details>
-    <details>
-      <summary>都要😍</summary>
-        <ol>
-          <div><span style="backgound-color:#DCD7ED;">那就都按吧👍</span></div>
-        </ol>
-    </details>
-  </p>
-  <p>
-    <br/>
-     <br/>
-     <br/>
-     <br/>
-     <br/>
-    <div align="right">這些都是我以前拍的，拍得沒有很好看，不要太在意啊XD。</div>
-  </p>
-</body>
-</html>
+body{
+    backgound-image:url("http://img.pptjia.com/image/20190312/e4174af697f50bc44f5136745d629d4b.jpg");
+    font-family: sans-serif;
+    padding: 20px;
+    }
