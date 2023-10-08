@@ -23,6 +23,12 @@ div.bg{
     display: block;
 }
 
+#dog:checked ~ #Dog:not(:checked),
+#cat:checked ~ #Cat:not(:checked),
+#both:checked ~ #Both:not(:checked){
+    display: none;
+}
+
 label{
     background-color: #7FD8F5;
     color: #fff;
@@ -30,13 +36,7 @@ label{
     cursor: pointer;
 }
 
-input[type="radio"]{
-    display: none;
-}
-
-#dog:checked ~ #Dog:not(:checked),
-#cat:checked ~ #Cat:not(:checked),
-#both:checked ~ #Both:not(:checked){
+input[type="radio"], input[type="checkbox"]{
     display: none;
 }
 
