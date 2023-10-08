@@ -7,10 +7,10 @@ div.bg{
     background-color:#DCD7ED;
 }
 
-#dog,
-#cat,
-#both{
-    margin-top: 300px;
+#Dog,
+#Cat,
+#Both{
+    margin-top: 30px;
 }
 
 .image{
