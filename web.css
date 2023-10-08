@@ -1,8 +1,29 @@
-body{
-    background-image:url("http://img.pptjia.com/image/20190312/e4174af697f50bc44f5136745d629d4b.jpg");
-    font-family: sans-serif;
-    padding: 20px;
+<style>
+    body{
+        background-image:url("http://img.pptjia.com/image/20190312/e4174af697f50bc44f5136745d629d4b.jpg");
+        font-family: sans-serif;
+        padding: 20px;
+        }
+    div.bg{
+        background-color:#DCD7ED;
     }
-div.bg{
-    background-color:#DCD7ED;
+
+    #toggle{
+        display: none;
+    }
+
+    #image{
+        display: none;
+    }
+
+    #toggle:checked + label + #image{
+        display: block;
+    }
+
+label{
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
 }
+</style>
