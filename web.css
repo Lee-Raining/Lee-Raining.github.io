@@ -7,21 +7,22 @@
     div.bg{
         background-color:#DCD7ED;
     }
-
-    #toggle{
+</style>
+<style>
+    #dog-image{
         display: none;
     }
 
-    #image{
-        display: none;
-    }
-
-    #toggle:checked + label + #image{
+    #show:checked + label + #dog-image{
         display: block;
     }
 
+     #show:not(:checked) + label + #dog-image{
+        display: none;
+    }
+
 label{
-    background-color: #0074d9;
+    background-color: #7FD8F5;
     color: #fff;
     padding: 10px 20px;
     cursor: pointer;
