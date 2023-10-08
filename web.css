@@ -13,6 +13,11 @@ div.bg{
     margin-top: 30px;
 }
 
+.button-container{
+    display: flex;
+    justify-content: space-around;
+}
+
 .image{
     display: none;
 }
@@ -39,9 +44,3 @@ label{
 input[type="radio"], input[type="checkbox"]{
     display: none;
 }
-
-.button-container{
-    display: flex;
-    justify-content: space-around;
-}
-
