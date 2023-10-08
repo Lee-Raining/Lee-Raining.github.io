@@ -13,10 +13,6 @@ div.bg{
     margin-top: 30px;
 }
 
-.button-container{
-    display: flex;
-    justify-content: space-around;
-}
 
 .image{
     display: none;
@@ -26,6 +22,12 @@ div.bg{
 #cat:checked ~ #Cat,
 #both:checked ~ #Both{
     display: block;
+}
+
+#dog:checked ~ #Dog:not(:checked),
+#cat:checked ~ #Cat:not(:checked),
+#both:checked ~ #Both:not(:checked){
+    display: none;
 }
 
 label{
