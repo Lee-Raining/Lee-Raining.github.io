@@ -7,9 +7,8 @@ div.bg{
     background-color:#DCD7ED;
 }
 
-.button-container{
-    display: flex;
-    justify-content: space-around;
+label + label {
+    margin-left: 20px;
 }
 
 #Dog,
