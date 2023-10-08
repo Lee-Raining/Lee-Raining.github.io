@@ -7,10 +7,6 @@ div.bg{
     background-color:#DCD7ED;
 }
 
-label + label {
-    margin-left: 20px;
-}
-
 #Dog,
 #Cat,
 #Both{
@@ -33,6 +29,10 @@ label{
     color: #fff;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+label + label {
+    margin-right: 50px;
 }
 
 input[type="radio"], input[type="checkbox"]{
