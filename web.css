@@ -31,6 +31,13 @@ label{
     cursor: pointer;
 }
 
+#dog + #cat{
+    margin-right: 50px;
+}
+#cat + #both{
+    margin-right: 50px;
+}
+
 input[type="radio"], input[type="checkbox"]{
     display: none;
 }
