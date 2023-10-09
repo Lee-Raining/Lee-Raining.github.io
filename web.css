@@ -33,9 +33,11 @@ label{
 
 #dog + #cat{
     margin-right: 50px;
+    margin-left: 50px;
 }
 #cat + #both{
     margin-right: 50px;
+    margin-left: 50px;
 }
 
 input[type="radio"], input[type="checkbox"]{
