@@ -43,9 +43,10 @@
         </div>
 
         <script>
-            $(document).ready(function() {
-                $("#Dog").addClass("animated shake");
-                $("#Cat").addClass("animated shake");
+           $(document).ready(function() {
+                $("#dog").css("color", "brown");
+                $("#cat").css("color", "purple");
+                $(".target:even").addClass("animated shake");
             });
             function dogToOtherPage(){
                 var urlToRedirect = "https://zh.wikipedia.org/zh-tw/犬";
