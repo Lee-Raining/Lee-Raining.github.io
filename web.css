@@ -42,6 +42,6 @@ label{
     margin-left: 50px;
 }
 
-input[type="radio"], input[type="checkbox"]{
+input[type="button"], input[type="checkbox"]{
     display: none;
 }
