@@ -24,7 +24,7 @@ div.bg{
     display: block;
 }
 .right{
-    box-align: right;
+    text-align: right;
 }
 label{
     background-color: #7FD8F5;
@@ -35,11 +35,11 @@ label{
 
 #dog + #cat{
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 #cat + #both{
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 input[type="button"], input[type="checkbox"]{
