@@ -13,39 +13,13 @@
             font-family: sans-serif;
             padding: 20px;
         }
+        
         div.bg {
             background-color: #DCD7ED;
         }
 
-        #Dog,
-        #Cat,
-        #Both {
-            margin-top: 30px;
-        }
-
         .image {
             display: none;
-        }
-
-        #dog:checked ~ #Dog,
-        #cat:checked ~ #Cat {
-            display: block;
-        }
-
-        label {
-            background-color: #7FD8F5;
-            color: #fff;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-
-        #dog {
-            margin-right: 50px;
-            margin-left: 0px;
-        }
-        #cat {
-            margin-right: 50px;
-            margin-left: 0px;
         }
 
         input[type="button"],input[type="checkbox"] {
@@ -56,15 +30,9 @@
 </head>
 <body> 
   <h1><span style="color:blue;">Welcome</span></h1>
-  <h2><div align="center"><span style="color:#8E9BAE;">Which do you like? Cat or dog?</span></div></h2>
+  <h2><div style="text-align: center;"><span style="color:#8E9BAE;">Which do you like? Cat or dog?</span></div></h2>
     <br>
     <p>
-        <script>
-            $(document).ready(function() {
-                $("#Dog").addClass("animated bounce");
-                $("#Cat").addClass("animated bounce");
-            });
-        </script>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-6">
@@ -79,6 +47,13 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            $(document).ready(function() {
+                $("#Dog").addClass("animated bounce");
+                $("#Cat").addClass("animated bounce");
+            });
+        </script>
     </p>
 </body>
 </html>
