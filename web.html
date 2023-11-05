@@ -7,7 +7,54 @@
     <link href="web.css" rel="stylesheet"/>
     <meta name="Generator" content="Cocoa HTML Writer">
     <meta name="CocoaVersion" content="2299.6">
-    <style type="text/css"></style>
+    <style type="text/css">
+        body {
+            background-image: url("http://img.pptjia.com/image/20190312/e4174af697f50bc44f5136745d629d4b.jpg");
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        div.bg {
+            background-color: #DCD7ED;
+        }
+
+        #Dog,
+        #Cat,
+        #Both {
+            margin-top: 30px;
+        }
+
+        .image {
+            display: none;
+        }
+
+        #dog:checked ~ #Dog,
+        #cat:checked ~ #Cat,
+        #both:checked ~ #Both {
+            display: block;
+        }
+
+        label {
+            background-color: #7FD8F5;
+            color: #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #dog {
+            margin-right: 50px;
+            margin-left: 0px;
+        }
+        #cat {
+            margin-right: 50px;
+            margin-left: 0px;
+        }
+
+        input[type="button"],
+        input[type="checkbox"] {
+            display: none;
+        }
+    </style>
+
 </head>
 <body> 
   <h1><span style="color:blue;">Welcome</span></h1>
