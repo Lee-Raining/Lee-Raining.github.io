@@ -23,7 +23,9 @@ div.bg{
 #both:checked ~ #Both{
     display: block;
 }
-
+.right{
+    box-align: right;
+}
 label{
     background-color: #7FD8F5;
     color: #fff;
