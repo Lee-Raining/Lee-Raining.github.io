@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>411261576 web HW3</title>
+    <link href="web.css" rel="stylesheet"/>
+    <meta name="Generator" content="Cocoa HTML Writer">
+    <meta name="CocoaVersion" content="2299.6">
+    <style type="text/css">
+        body {
+            background-image: url("http://img.pptjia.com/image/20190312/e4174af697f50bc44f5136745d629d4b.jpg");
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        
+        div.bg {
+            background-color: #DCD7ED;
+        }
+    </style>
+
+</head>
+<body> 
+  <h1><span style="color:blue;">Welcome</span></h1>
+  <h2><div style="text-align: center;"><span style="color:#8E9BAE;">Which do you like? Cat or dog?</span></div></h2>
+    <br>
+    <p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3>Dog</h3>
+                    <h4>Dogs are human’s best friend</h4>
+                    <img id="Dog" src="https://img.onl/1IqpnK" width="400" height="250" alt="狗狗">
+                    <button type="button" class="btn btn-default target" id="dog" onclick="dogToOtherPage()">按下去</button>
+            </div>
+                <div class="col-xs-6">
+                    <h3>Cat</h3>
+                    <h4>Cats can stay at home with you</h4>
+                    <img id="Cat" src="https://img.onl/zlNa5l" width="400" height="300" alt="貓貓">
+                    <button type="button" class="btn btn-default target" id="cat" onclick="catToOtherPage()">按下去</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function() {
+                $("button").addClass("animated bounce");
+            });
+            function dogToOtherPage(){
+                var urlToRedirect = "https://zh.wikipedia.org/zh-tw/犬";
+                window.location.href = urlToRedirect;
+            }
+            function catToOtherPage(){
+                var urlToRedirect = "https://zh.wikipedia.org/zh-tw/猫";
+                window.location.href = urlToRedirect;
+            }
+        </script>
+    </p>
+</body>
+</html>
