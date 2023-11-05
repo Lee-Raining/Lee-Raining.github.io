@@ -28,11 +28,11 @@ label{
     cursor: pointer;
 }
 
-#dog + #cat{
+#dog{
     margin-right: 50px;
     margin-left: 0px;
 }
-#cat + #both{
+#cat{
     margin-right: 50px;
     margin-left: 0px;
 }
